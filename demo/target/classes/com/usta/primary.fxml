@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="346.0" prefWidth="555.0" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.usta.PrimaryController">
+   <children>
+      <Label text="VETERINARIA LAS PALMAS" textFill="#ffa100">
+         <font>
+            <Font name="Comic Sans MS Bold" size="31.0" />
+         </font></Label>
+      <BorderPane prefHeight="271.0" prefWidth="515.0">
+         <right>
+            <Button mnemonicParsing="false" onAction="#switchToIngresar" prefHeight="55.0" prefWidth="125.0" text="INGRESAR USUARIO" BorderPane.alignment="CENTER" />
+         </right>
+         <left>
+            <Button mnemonicParsing="false" onAction="#switchToMascota" prefHeight="58.0" prefWidth="106.0" text="CREAR USUARIO" BorderPane.alignment="CENTER" />
+         </left>
+         <center>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@img/funciones-veterinarios.jpg" />
+               </image>
+            </ImageView>
+         </center>
+      </BorderPane>
+      <Button fx:id="primaryButton" onAction="#switchToSecondary" text="Switch to Secondary View" />
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
