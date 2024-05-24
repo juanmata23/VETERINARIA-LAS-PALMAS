@@ -10,7 +10,7 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="561.0" prefWidth="942.0" style="-fx-background-color: 9BB291;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Pane layoutX="23.0" layoutY="33.0" prefHeight="496.0" prefWidth="896.0">
+      <Pane layoutX="23.0" layoutY="33.0" prefHeight="496.0" prefWidth="896.0" style="-fx-background-color: A6E1FA;">
          <children>
             <Label layoutX="22.0" layoutY="31.0" text="¿QUÉ INFORMACIÓN DESEAS ACTUALIZAR?">
                <font>
@@ -23,6 +23,7 @@
                 <MenuItem mnemonicParsing="false" text="FECHA DE NACIMIENTO" />
                   <MenuItem mnemonicParsing="false" text="NOMBRE" />
                   <MenuItem mnemonicParsing="false" text="RAZA" />
+                  <MenuItem mnemonicParsing="false" text="SEXO" />
                   <MenuItem mnemonicParsing="false" text="MALESTAR O ENFERMEDAD" />
               </items>
             </MenuButton>

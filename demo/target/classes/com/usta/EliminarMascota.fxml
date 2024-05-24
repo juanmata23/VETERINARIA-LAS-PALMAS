@@ -10,26 +10,21 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="561.0" prefWidth="942.0" style="-fx-background-color: 9BB291;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Pane layoutX="23.0" layoutY="33.0" prefHeight="496.0" prefWidth="896.0" style="-fx-background-color: A6E1FA;">
+      <Pane layoutX="23.0" layoutY="33.0" prefHeight="496.0" prefWidth="896.0" style="-fx-background-color: C0CAAD;">
          <children>
-            <Label layoutX="22.0" layoutY="31.0" text="¿QUÉ INFORMACIÓN DESEAS ACTUALIZAR?">
+            <Label layoutX="22.0" layoutY="31.0" text="¿QUÉ MASCOTA DESEAS ELIMINAR?">
                <font>
                   <Font name="System Bold Italic" size="34.0" />
                </font>
             </Label>
-            <MenuButton layoutX="99.0" layoutY="99.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="213.0" text="SELECCIONAR COSA A CAMBIAR">
+            <MenuButton layoutX="99.0" layoutY="99.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="248.0" text="SELECCIONA LA MASCOTA A ELIMINAR">
               <items>
-                <MenuItem mnemonicParsing="false" text="CLASE DE ANIMAL" />
-                <MenuItem mnemonicParsing="false" text="FECHA DE NACIMIENTO" />
-                  <MenuItem mnemonicParsing="false" text="NOMBRE" />
-                  <MenuItem mnemonicParsing="false" text="RAZA" />
-                  <MenuItem mnemonicParsing="false" text="SEXO" />
-                  <MenuItem mnemonicParsing="false" text="MALESTAR O ENFERMEDAD" />
+                <MenuItem mnemonicParsing="false" text="MASCOTA" />
               </items>
             </MenuButton>
             <ImageView fitHeight="340.0" fitWidth="428.0" layoutX="407.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@img/senado-veterinarias.jpg" />
+                  <Image url="@img/web20230405-Bain-de-Chiot-9.jpg" />
                </image>
             </ImageView>
             <ImageView fitHeight="50.0" fitWidth="51.0" layoutX="816.0" layoutY="432.0" pickOnBounds="true" preserveRatio="true">

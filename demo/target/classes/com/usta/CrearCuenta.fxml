@@ -15,7 +15,7 @@
       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
    </padding>
    <children>
-      <Pane prefHeight="372.0" prefWidth="644.0" style="-fx-background-color: FFD6FF;">
+      <Pane prefHeight="372.0" prefWidth="644.0" style="-fx-background-color: C7EAE4;">
          <children>
             <Label layoutX="140.0" layoutY="14.0" text="CREA UNA CUENTA CON NOSOTROS!!" textFill="#434975">
                <font>

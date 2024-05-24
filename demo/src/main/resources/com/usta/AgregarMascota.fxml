@@ -8,7 +8,6 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="534.0" prefWidth="917.0" style="-fx-background-color: B7C8B5;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Pane layoutX="27.0" layoutY="21.0" prefHeight="493.0" prefWidth="864.0" style="-fx-background-color: 8FB8DE;">
@@ -18,27 +17,27 @@
                   <Font name="Comic Sans MS Bold Italic" size="40.0" />
                </font>
             </Label>
-            <TextField layoutX="28.0" layoutY="140.0" prefHeight="50.0" prefWidth="338.0" promptText="¿QUÉ CLASE DE ANIMAL ES?">
+            <TextField layoutX="28.0" layoutY="104.0" prefHeight="50.0" prefWidth="338.0" promptText="¿QUÉ CLASE DE ANIMAL ES?">
                <font>
                   <Font name="System Bold" size="23.0" />
                </font>
             </TextField>
-            <TextField layoutX="28.0" layoutY="231.0" prefHeight="50.0" prefWidth="338.0" promptText="¿CUÁL ES SU NOMBRE?">
+            <TextField layoutX="28.0" layoutY="181.0" prefHeight="50.0" prefWidth="338.0" promptText="¿CUÁL ES SU NOMBRE?">
                <font>
                   <Font name="System Bold" size="23.0" />
                </font>
             </TextField>
-            <TextField layoutX="28.0" layoutY="327.0" prefHeight="50.0" prefWidth="338.0" promptText="¿QUÉ RAZA ES?">
+            <TextField layoutX="28.0" layoutY="254.0" prefHeight="50.0" prefWidth="338.0" promptText="¿QUÉ RAZA ES ?">
                <font>
                   <Font name="System Bold" size="23.0" />
                </font>
             </TextField>
-            <TextField layoutX="404.0" layoutY="140.0" prefHeight="50.0" prefWidth="440.0" promptText="¿CUÁL ES SU FECHA DE NACIMIENTO?">
+            <TextField layoutX="410.0" layoutY="104.0" prefHeight="50.0" prefWidth="440.0" promptText="¿CUÁL ES SU FECHA DE NACIMIENTO?">
                <font>
                   <Font name="System Bold" size="23.0" />
                </font>
             </TextField>
-            <TextField layoutX="404.0" layoutY="231.0" prefHeight="50.0" prefWidth="452.0" promptText="¿PRESENTA ALGÚN MALESTAR?¿CUÁL?">
+            <TextField layoutX="404.0" layoutY="181.0" prefHeight="50.0" prefWidth="452.0" promptText="¿PRESENTA ALGÚN MALESTAR?¿CUÁL?">
                <font>
                   <Font name="System Bold" size="23.0" />
                </font>
@@ -98,6 +97,11 @@
                   <Image url="@img/island-logo-design-with-coconut-trees-and-sunset-vector.jpg" />
                </image>
             </ImageView>
+            <TextField layoutX="28.0" layoutY="342.0" prefHeight="50.0" prefWidth="338.0" promptText="¿CUÁL ES SU SEXO?">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </TextField>
          </children>
       </Pane>
    </children>
