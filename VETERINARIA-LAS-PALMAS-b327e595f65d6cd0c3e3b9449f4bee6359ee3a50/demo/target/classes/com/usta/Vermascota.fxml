@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="561.0" prefWidth="942.0" style="-fx-background-color: 9BB291;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="23.0" layoutY="33.0" prefHeight="496.0" prefWidth="896.0" style="-fx-background-color: C0CAAD;">
+         <children>
+            <Label layoutX="22.0" layoutY="31.0" text="ESTA ES LA LISTA DE TUS MASCOTAS">
+               <font>
+                  <Font name="System Bold Italic" size="34.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="50.0" fitWidth="51.0" layoutX="816.0" layoutY="432.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/island-logo-design-with-coconut-trees-and-sunset-vector.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="64.0" layoutX="664.0" layoutY="438.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/png-transparent-computer-icons-bone-bones-text-desktop-wallpaper-share-icon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="64.0" layoutX="535.0" layoutY="438.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/png-transparent-computer-icons-bone-bones-text-desktop-wallpaper-share-icon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="64.0" layoutX="407.0" layoutY="438.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/png-transparent-computer-icons-bone-bones-text-desktop-wallpaper-share-icon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="64.0" layoutX="288.0" layoutY="438.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/png-transparent-computer-icons-bone-bones-text-desktop-wallpaper-share-icon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="64.0" layoutX="173.0" layoutY="438.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/png-transparent-computer-icons-bone-bones-text-desktop-wallpaper-share-icon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="64.0" layoutX="75.0" layoutY="438.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/png-transparent-computer-icons-bone-bones-text-desktop-wallpaper-share-icon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="64.0" layoutX="11.0" layoutY="391.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/png-transparent-computer-icons-bone-bones-text-desktop-wallpaper-share-icon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="64.0" layoutX="11.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/png-transparent-computer-icons-bone-bones-text-desktop-wallpaper-share-icon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="64.0" layoutX="11.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/png-transparent-computer-icons-bone-bones-text-desktop-wallpaper-share-icon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="64.0" layoutX="11.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/png-transparent-computer-icons-bone-bones-text-desktop-wallpaper-share-icon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="64.0" layoutX="11.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/png-transparent-computer-icons-bone-bones-text-desktop-wallpaper-share-icon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="64.0" layoutX="759.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/png-transparent-computer-icons-bone-bones-text-desktop-wallpaper-share-icon.png" />
+               </image>
+            </ImageView>
+            <ListView layoutX="263.0" layoutY="79.0" prefHeight="334.0" prefWidth="350.0" />
+         </children>
+      </Pane>
+   </children>
+</Pane>
